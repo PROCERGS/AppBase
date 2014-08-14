@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu_item_share"
+        android:title="@string/compartilhar" 
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_share"/>
+    <item
+        android:id="@+id/menu_ajuda"
+        android:orderInCategory="100"
+        android:title="@string/action_ajuda"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_help"/>
+    <item
+        android:id="@+id/menu_sobre"
+        android:orderInCategory="100"
+        android:title="@string/action_sobre"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+    
+</menu>
